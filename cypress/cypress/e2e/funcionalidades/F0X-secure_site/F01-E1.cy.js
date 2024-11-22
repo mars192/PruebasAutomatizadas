@@ -8,7 +8,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
 describe('F01-Acceder al blog con contraseña', () => {
   beforeEach(() => {
-    cy.login();
+    loginPage.login();
   });
 
   it('F01-E1-Escenario positivo - Configurar contraseña', function () {
