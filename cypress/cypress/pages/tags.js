@@ -35,9 +35,9 @@ export class Tags {
         cy.get('p[class="response"]').should('contain.text', error);
     }
 
-    /*verifyInternalTagsCreated(message) {
+    verifyInternalTagsCreated(message) {
         cy.get('a[class="ember-view gh-btn gh-btn-green"]').should('not.contain.text', message);;
-    }*/
+    }
 
     clickOnTagCreated() {
         cy.get('a[title="Edit tag"]').first().click();

@@ -1,0 +1,17 @@
+[
+    {
+        "url": "http://localhost:2368/ghost/#/posts?order=published_at%20asc"
+    },
+    {
+        "url": "http://localhost:2368/ghost/#/posts?order=updated_at%20desc"
+    },
+    {
+        "url": "http://localhost:2368/ghost/#/posts?order=published_at%20asc&type=draft"
+    },
+    {
+        "url": "http://localhost:2368/ghost/#/posts?order=updated_at%20desc&type=scheduled"
+    },
+    {
+        "url": "http://localhost:2368/ghost/#/posts?order=published_at%20asc&type=published"
+    }
+]

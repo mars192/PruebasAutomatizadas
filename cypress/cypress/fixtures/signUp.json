@@ -1,0 +1,22 @@
+[
+    {
+        "email": "usuario1@ejemplo.com",
+        "incorrectEmail": "usuario1ejemplo"
+    },
+    {
+        "email": "persona2@dominio.com",
+        "incorrectEmail": "abcd@sasds"
+    },
+    {
+        "email": "contacto3@empresa.com",
+        "incorrectEmail": "contacto3empresa, "
+    },
+    {
+        "email": "cliente4@web.com",
+        "incorrectEmail": "cliente4web"
+    },
+    {
+        "email": "soporte5@servicio.com",
+        "incorrectEmail": "abcd123@sasds"
+    }
+]

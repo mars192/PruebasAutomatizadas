@@ -1,0 +1,22 @@
+[
+  {
+    "email": "ahazelton0@w3.org",
+    "incorrectEmail": "cyberchimps.com"
+  },
+  {
+    "email": "dgrix1@furl.net",
+    "incorrectEmail": "sun.com"
+  },
+  {
+    "email": "cdomenici2@dropbox.com",
+    "incorrectEmail": "e-recht24.de"
+  },
+  {
+    "email": "ccandelin3@pen.io",
+    "incorrectEmail": "scribd.com"
+  },
+  {
+    "email": "gdecristofalo4@latimes.com",
+    "incorrectEmail": "webs.com"
+  }
+]
