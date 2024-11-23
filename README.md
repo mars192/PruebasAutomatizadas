@@ -8,8 +8,8 @@
 ## Pre-requisitos para la instalación y ejecución
 * Node v20.18.0
 * Google Chrome v131.0.6778.86
-* Ghost-CLI version: 1.26.1
-* Ghost version: 5.101.2
+* Ghost-CLI v1.26.1
+* Ghost v5.101.2
 
 ## Pasos para la instalación y ejecución
 ### 1. Clonar el proyecto desde GitHub
