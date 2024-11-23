@@ -64,12 +64,12 @@ En la interfaz gráfica de cypress se ecuentra la sigueinte estructura:
 ```
 - cypress/e2e/funcionalidades
   - F01_InternalTags
-      - F01_Create_a-priori.cy.js
-      - F01_Create_aleatorio.cy.js
-      - F01_Create_pseudo.cy.js
-      - F01_Modify_a-priori.cy.js
-      - F01_Modify_aleatorio.cy.js
-      - F01_Modify_pseudo.cy.js
+    - F01_Create_a-priori.cy.js
+    - F01_Create_aleatorio.cy.js
+    - F01_Create_pseudo.cy.js
+    - F01_Modify_a-priori.cy.js
+    - F01_Modify_aleatorio.cy.js
+    - F01_Modify_pseudo.cy.js
   - F02_SignUp
     - F02_SignUp_a-priori.cy.js
     - F02_SignUp_aleatorio.cy.js
