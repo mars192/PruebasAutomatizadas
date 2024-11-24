@@ -61,20 +61,20 @@ describe('F03-Crear vista', () => {
     })
   });
 
-  it('F03-E2-Crear vista interno con nombre largo', function () {
+  it('F03-E2-Crear vista  con nombre largo', function () {
     var count = 0;
     viewData.forEach((data) => {
       count++;
       views.visitView(viewTypeData[count - 1].url);
       views.clickOnCreateView();
-      cy.screenshot('pseudo/F03/E2-Crear vista interno con nombre largo. Ejecución: ' + count + '. Paso 1')
+      cy.screenshot('pseudo/F03/E2-Crear vista con nombre largo. Ejecución: ' + count + '. Paso 1')
 
       views.typeName(data.longName)
-      cy.screenshot('pseudo/F03/E2-Crear vista interno con nombre largo. Ejecución: ' + count + '. Paso 2')
+      cy.screenshot('pseudo/F03/E2-Crear vista con nombre largo. Ejecución: ' + count + '. Paso 2')
 
       views.saveView()
       cy.wait(1000)
-      cy.screenshot('pseudo/F03/E2-Crear vista interno con nombre largo. Ejecución: ' + count + '. Resultado')
+      cy.screenshot('pseudo/F03/E2-Crear vista con nombre largo. Ejecución: ' + count + '. Resultado')
 
       cy.visit('/')
       cy.wait(1000);
