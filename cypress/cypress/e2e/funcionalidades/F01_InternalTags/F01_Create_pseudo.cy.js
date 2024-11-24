@@ -33,7 +33,7 @@ describe('F01-Crear tags internos', () => {
     cy.wait(2000)
   });
 
-  it('F01-E1-Crear tag interno con datos completos', () => {
+  it('F01_E1-Crear tag interno con datos completos', () => {
     var count = 0;
     tagData.forEach((data) => {
       count++;
@@ -59,7 +59,7 @@ describe('F01-Crear tags internos', () => {
     });
   });
 
-  it('F01-E2-Crear tag interno con datos completos y descripción larga', () => {
+  it('F01_E2-Crear tag interno con datos completos y descripción larga', () => {
     var count = 0;
     tagData.forEach((data) => {
       count++;
@@ -85,7 +85,7 @@ describe('F01-Crear tags internos', () => {
     });
   });
 
-  it('F01-E3-Crear tag interno con datos incompletos', () => {
+  it('F01_E3-Crear tag interno con datos incompletos', () => {
     var count = 0;
     tagData.forEach((data) => {
       count++;
@@ -110,7 +110,7 @@ describe('F01-Crear tags internos', () => {
     });
   });
 
-  it('F01-E4-Consultar tag creado', () => {
+  it('F01_E4-Consultar tag creado', () => {
     tags.clickTagsLink();
     cy.screenshot('pseudo/F01/E4-Consultar tag creado. Paso 1')
 

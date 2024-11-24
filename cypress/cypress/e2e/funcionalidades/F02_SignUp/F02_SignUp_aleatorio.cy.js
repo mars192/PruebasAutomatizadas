@@ -14,7 +14,7 @@ describe('F02-Sign up', () => {
     cy.wait(2000)
   })
 
-  it('F02-E1-Suscribirse al sitio con correo incorrecto', function () {
+  it('F02_E1-Suscribirse al sitio con correo incorrecto', function () {
     var count = 0;
     for (let i = 0; i < numCasos; i++) {
       count++;

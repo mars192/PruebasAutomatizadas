@@ -33,7 +33,7 @@ describe('F01-Modificar tags internos', () => {
     cy.wait(2000)
   });
 
-  it('F01-E5-Modificar tag con datos completos', function () {
+  it('F01_E5-Modificar tag con datos completos', function () {
     var count = 0;
     tagData.forEach((data) => {
       count++
@@ -60,7 +60,7 @@ describe('F01-Modificar tags internos', () => {
     })
   });
 
-  it('F01-E6-Modificar tag con datos completos y descripción de larga', function () {
+  it('F01_E6-Modificar tag con datos completos y descripción de larga', function () {
     var count = 0;
     tagData.forEach((data) => {
       count++
@@ -87,7 +87,7 @@ describe('F01-Modificar tags internos', () => {
     })
   });
 
-  it('F01-E7-Crear tag interno con datos incompletos', function () {
+  it('F01_E7-Crear tag interno con datos incompletos', function () {
     var count = 0;
     tagData.forEach((data) => {
       count++
@@ -113,7 +113,7 @@ describe('F01-Modificar tags internos', () => {
     })
   });
 
-  it('F01-E8-Consultar tag modificado', function () {
+  it('F01_E8-Consultar tag modificado', function () {
     tags.clickTagsLink();
     cy.screenshot('pseudo/F01/E8-Consultar tag modificado. Paso 1')
 

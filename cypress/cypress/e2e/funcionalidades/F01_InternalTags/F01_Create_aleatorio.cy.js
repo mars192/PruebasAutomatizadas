@@ -14,7 +14,7 @@ describe('F01-Crear tags internos', () => {
     cy.wait(2000)
   })
 
-  it('F01-E1-Crear tag interno con datos completos', function () {
+  it('F01_E1-Crear tag interno con datos completos', function () {
     var count = 0;
     for (let i = 0; i < numCasos; i++) {
       count++;
@@ -40,7 +40,7 @@ describe('F01-Crear tags internos', () => {
     }
   })
 
-  it('F01-E2-Crear tag interno con datos completos y descripción larga', function () {
+  it('F01_E2-Crear tag interno con datos completos y descripción larga', function () {
     var count = 0;
     for (let i = 0; i < numCasos; i++) {
       count++;
@@ -66,7 +66,7 @@ describe('F01-Crear tags internos', () => {
     }
   })
 
-  it('F01-E3-Crear tag interno con datos incompletos', function () {
+  it('F01_E3-Crear tag interno con datos incompletos', function () {
     var count = 0;
     for (let i = 0; i < numCasos; i++) {
       count++;
@@ -91,7 +91,7 @@ describe('F01-Crear tags internos', () => {
     }
   })
 
-  it('F01-E4-Consultar tag creado', function () {
+  it('F01_E4-Consultar tag creado', function () {
     tags.clickTagsLink();
     cy.screenshot('aleatorio/F01/E4-Consultar tag creado. Paso 1')
 

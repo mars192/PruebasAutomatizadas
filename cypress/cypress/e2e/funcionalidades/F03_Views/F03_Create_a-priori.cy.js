@@ -34,7 +34,7 @@ describe('F03-Crear vista', () => {
     })
   });
 
-  it('F03-E1-Crear vista', function () {
+  it('F03_E1-Crear vista', function () {
     var count = 0;
     viewData.forEach((data) => {
       count++;
@@ -54,7 +54,7 @@ describe('F03-Crear vista', () => {
     })
   });
 
-  it('F03-E2-Crear vista interno con nombre largo', function () {
+  it('F03_E2-Crear vista interno con nombre largo', function () {
     var count = 0;
     viewData.forEach((data) => {
       count++;
