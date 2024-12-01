@@ -11,6 +11,62 @@
 * Ghost-CLI v1.26.1
 * Ghost v5.101.2
 
+## Pasos para la instalación y ejecución de pruebas RIPuppet
+### 1. Clonar el proyecto desde GitHub
+Ubicarse en una ruta del PC y ejecutar el siguiente comando:
+
+```
+git clone https://github.com/mars192/PruebasAutomatizadas.git
+```
+### 2. Confirmar la versión de NodeJS
+Para esta entrega se usa la versión v20.18.0 de NodeJS, por lo tanto, se debe ejecutar el siguiente comando para confirmar dicha versión:
+
+```
+node --version
+```
+### 3. Instalar dependencias para Ghost
+Acceder a la carpeta ```/PruebasAutomatizadas/ghost/``` presente en el directorio que contiene el proyecto previamente clonado. Para esto puede usar el comando presentado acontinuación, en donde debe remplazar el valor de ```<YOUR_DIRECTORY_HERE>``` según corresponda.
+```
+cd <YOUR_DIRECTORY_HERE>/PruebasAutomatizadas/ghost/
+```
+Luego de esto, ejecutar el siguiente comando
+```
+npm install
+```
+
+### 4. Subir Ghost
+Desde el directorio ```<YOUR_DIRECTORY_HERE>/PruebasAutomatizadas/ghost/ghost/``` ejecutar el comando:
+```
+../node_modules/ghost-cli/bin/ghost start
+```
+_**Nota:** En caso de no utilizar los archivos de Ghost presentes en el repositorio de GitHub y con el objetivo de que las pruebas se ejecuten de forma exitosa, se debe crear un usuario adminsitrador con los datos: ```email: ma.rodriguezs123456@uniandes.edu.co``` y ```contrsaeña: Prueba123456```_
+
+### 5. Instalar dependencias para cypress
+Acceder a la carpeta ```/PruebasAutomatizadas/RIPuppetCoursera/``` presente en el directorio que contiene el proyecto previamente clonado. Para esto puede usar el comando presentado acontinuación, en donde debe reemplazar el valor de ```<YOUR_DIRECTORY_HERE>``` según corresponda.
+```
+cd <YOUR_DIRECTORY_HERE>/PruebasAutomatizadas/RIPuppetCoursera/
+```
+Luego de esto, ejecutar el siguiente comando
+```
+npm install
+```
+### 6. Ejecutar el Ripper
+Acceder a la carpeta ```/PruebasAutomatizadas/RIPuppetCoursera/``` presente en el directorio que contiene el proyecto previamente clonado. Para esto puede usar el comando presentado acontinuación, en donde debe reemplazar el valor de ```<YOUR_DIRECTORY_HERE>``` según corresponda.
+```
+cd <YOUR_DIRECTORY_HERE>/PruebasAutomatizadas/RIPuppetCoursera/
+```
+Luego de esto, ejecutar el siguiente comando
+```
+node index.js
+```
+Luego de ejecutar el comando, se abrirá un navegador web Chromium, en donde se deben ingresar los datos para el inicio de sesión. Este paso es requerido debido a que el Ripper no realiza de forma automática el inicio de sesión y este debe continuar con el análisis de las páginas, una vez que se encuentra autenticado. 
+
+Los datos de inicio de sesión son:
+```
+email: ma.rodriguezs123456@uniandes.edu.co
+contrsaeña: Prueba123456
+```
+
 ## Pasos para la instalación y ejecución de pruebas E2E
 ### 1. Clonar el proyecto desde GitHub
 Ubicarse en una ruta del PC y ejecutar el siguiente comando:
