@@ -1,0 +1,14 @@
+body
+  main#main
+    div.gh-app
+      div.gh-viewport
+        div.gh-view
+          section.error-content.error-404.js-error-container
+            section.error-details
+              section.error-message
+                h1.error-code
+                  #text
+                h2.error-description
+                  #text
+                a.error-link
+                  #text
