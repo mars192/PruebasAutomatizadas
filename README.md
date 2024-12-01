@@ -11,7 +11,7 @@
 * Ghost-CLI v1.26.1
 * Ghost v5.101.2
 
-## Pasos para la instalación y ejecución
+## Pasos para la instalación y ejecución de pruebas E2E
 ### 1. Clonar el proyecto desde GitHub
 Ubicarse en una ruta del PC y ejecutar el siguiente comando:
 
