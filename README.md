@@ -42,18 +42,18 @@ Desde el directorio ```<YOUR_DIRECTORY_HERE>/PruebasAutomatizadas/ghost/ghost/``
 _**Nota:** En caso de no utilizar los archivos de Ghost presentes en el repositorio de GitHub y con el objetivo de que las pruebas se ejecuten de forma exitosa, se debe crear un usuario adminsitrador con los datos: ```email: ma.rodriguezs123456@uniandes.edu.co``` y ```contrsaeña: Prueba123456```_
 
 ### 5. Instalar dependencias para cypress
-Acceder a la carpeta ```/PruebasAutomatizadas/RIPuppetCoursera/``` presente en el directorio que contiene el proyecto previamente clonado. Para esto puede usar el comando presentado acontinuación, en donde debe reemplazar el valor de ```<YOUR_DIRECTORY_HERE>``` según corresponda.
+Acceder a la carpeta ```/PruebasAutomatizadas/RIPuppet/``` presente en el directorio que contiene el proyecto previamente clonado. Para esto puede usar el comando presentado acontinuación, en donde debe reemplazar el valor de ```<YOUR_DIRECTORY_HERE>``` según corresponda.
 ```
-cd <YOUR_DIRECTORY_HERE>/PruebasAutomatizadas/RIPuppetCoursera/
+cd <YOUR_DIRECTORY_HERE>/PruebasAutomatizadas/RIPuppet/
 ```
 Luego de esto, ejecutar el siguiente comando
 ```
 npm install
 ```
 ### 6. Ejecutar el Ripper
-Acceder a la carpeta ```/PruebasAutomatizadas/RIPuppetCoursera/``` presente en el directorio que contiene el proyecto previamente clonado. Para esto puede usar el comando presentado acontinuación, en donde debe reemplazar el valor de ```<YOUR_DIRECTORY_HERE>``` según corresponda.
+Acceder a la carpeta ```/PruebasAutomatizadas/RIPuppet/``` presente en el directorio que contiene el proyecto previamente clonado. Para esto puede usar el comando presentado acontinuación, en donde debe reemplazar el valor de ```<YOUR_DIRECTORY_HERE>``` según corresponda.
 ```
-cd <YOUR_DIRECTORY_HERE>/PruebasAutomatizadas/RIPuppetCoursera/
+cd <YOUR_DIRECTORY_HERE>/PruebasAutomatizadas/RIPuppet/
 ```
 Luego de esto, ejecutar el siguiente comando
 ```
